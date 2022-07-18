@@ -70,10 +70,10 @@ const UserPost = () => {
                         <Row className="mb-3">
                             <Col></Col>
                             <Col md="4">
-                            <Link to="/forum">
+                            <Link to="/Project2final/forum">
                         <Button type="back" variant='secondary'>Back to Forum</Button></Link></Col>
                             <Col md="4">
-                            <Button type="submit" onSelect={<Link to="/forum"></Link>}>Submit Form</Button>
+                            <Button type="submit" onSelect={<Link to="/Project2final/forum"></Link>}>Submit Form</Button>
                             </Col>
                             <Col></Col>
                         </Row>

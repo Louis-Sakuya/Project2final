@@ -18,7 +18,7 @@ const News = () => {
                         <div className="overlay">
                             <h2>Patch Note 1.1</h2>
                             <br></br>
-                            <Link to="/news/news1">
+                            <Link to="/Project2final/news/news1">
                                 <button type="button" className="btn info" >More Information</button>
                             </Link>
                         </div>
@@ -30,7 +30,7 @@ const News = () => {
                         <div className="overlay">
                             <h2>Patch Note 1.0</h2>
                             <br></br>
-                            <Link to="/news/news1">
+                            <Link to="/Project2final/news/news1">
                                 <button type="button" className="btn info" >More Information</button>
                             </Link>
                         </div>
@@ -42,7 +42,7 @@ const News = () => {
                         <div className="overlay">
                             <h2>Urgent notice - BETA TEST Released</h2>
                             <br></br>
-                            <Link to="/news/news2">
+                            <Link to="/Project2final/news/news2">
                                 <button type="button" className="btn info" >More Information</button>
                             </Link>
                         </div>
@@ -58,7 +58,7 @@ const News = () => {
                         <div className="overlay">
                             <h2>Patch Note 0.9 Alpha</h2>
                             <br></br>
-                            <Link to="/news/news1">
+                            <Link to="/Project2final/news/news1">
                                 <button type="button" className="btn info" >More Information</button>
                             </Link>
                         </div>
@@ -70,7 +70,7 @@ const News = () => {
                         <div className="overlay">
                             <h2>Patch Note 0.8 Alpha</h2>
                             <br></br>
-                            <Link to="/news/news1">
+                            <Link to="/Project2final/news/news1">
                                 <button type="button" className="btn info" >More Information</button>
                             </Link>
                         </div>
@@ -82,7 +82,7 @@ const News = () => {
                         <div className="overlay">
                             <h2>Urgent notice </h2>
                             <br></br>
-                            <Link to="/news/news2">
+                            <Link to="/Project2final/news/news2">
                                 <button type="button" className="btn info" >More Information</button>
                             </Link>
                         </div>
@@ -99,7 +99,7 @@ const News = () => {
                         <div className="overlay">
                             <h2>Patch Note 0.7 Alpha</h2>
                             <br></br>
-                            <Link to="/news/news1">
+                            <Link to="/Project2final/news/news1">
                                 <button type="button" className="btn info" >More Information</button>
                             </Link>
                         </div>
@@ -111,7 +111,7 @@ const News = () => {
                         <div className="overlay">
                             <h2>Patch Note 0.6 Alpha</h2>
                             <br></br>
-                            <Link to="/news/news1">
+                            <Link to="/Project2final/news/news1">
                                 <button type="button" className="btn info" >More Information</button>
                             </Link>
                         </div>
@@ -123,7 +123,7 @@ const News = () => {
                         <div className="overlay">
                             <h2>Patch Note 0.5 Alpha </h2>
                             <br></br>
-                            <Link to="/news/news1">
+                            <Link to="/Project2final/news/news1">
                                 <button type="button" className="btn info" >More Information</button>
                             </Link>
                         </div>

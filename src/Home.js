@@ -3,6 +3,7 @@ import Row from "react-bootstrap/esm/Row";
 import background1 from "./images/tunnel-title1.jpg"
 import videopreview from "./images/videopreview.jpg"
 import platforms from "./images/Platform.jpg"
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -24,8 +25,9 @@ const Home = () => {
                             <a className="info" href="https://youtu.be/dQw4w9WgXcQ?autoplay=1">Watch on Youtube</a>
                         </div>
                     </div>    
-                </Row>   
-                <button className="btn-download" size="md"><span>Download BETA version </span></button>
+                </Row>
+                <Link to="/Project2final/login"><button className="btn-download" size="md"><span>Download BETA version </span></button></Link>
+                
                     </Col>
                 <Col md={3}></Col>
             </Row>

@@ -20,15 +20,15 @@ function NavHeaderJP() {
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
           <Nav justify className="me-auto" fixedTop="true">
-            <Nav.Link className='nav-link1' href="/homeJP"><span className='navtext'>Home</span></Nav.Link>
-            <Nav.Link className='nav-link1' href="/conceptJP"><span className='navtext'>Concept</span></Nav.Link>
-            <Nav.Link className='nav-link1' href="/storyJP"><span className='navtext'>Story</span></Nav.Link>
-            <Nav.Link className='nav-link1' href="/news"><span className='navtext'>News</span></Nav.Link>
+            <Nav.Link className='nav-link1' href="/Project2final/homeJP"><span className='navtext'>Home</span></Nav.Link>
+            <Nav.Link className='nav-link1' href="/Project2final/conceptJP"><span className='navtext'>Concept</span></Nav.Link>
+            <Nav.Link className='nav-link1' href="/Project2final/storyJP"><span className='navtext'>Story</span></Nav.Link>
+            <Nav.Link className='nav-link1' href="/Project2final/news"><span className='navtext'>News</span></Nav.Link>
             <NavDropdown menuVariant="dark" componentClass='nav-link1' title={<span className='navtext'>Community ▼</span>} id="basic-nav-dropdown" >
               <NavDropdown.Item href="https://twitter.com/fromsoftware_pr"><span className='navtext'>Twitter</span></NavDropdown.Item>
-              <NavDropdown.Item href="/forum"><span className='navtext'>Forum</span></NavDropdown.Item>
+              <NavDropdown.Item href="/Project2final/forum"><span className='navtext'>Forum</span></NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className='nav-link1' href="/login"><img
+            <Nav.Link className='nav-link1' href="/Project2final/login"><img
               src={proicon}
               width="50"
               height="50"
@@ -36,8 +36,8 @@ function NavHeaderJP() {
               alt="profileicon"
             /></Nav.Link>
             <NavDropdown menuVariant="dark" className='nav-link1' title={<span className='navtext'><MdGTranslate></MdGTranslate></span>} href="translate" >
-            <NavDropdown.Item href="/home">English(US)</NavDropdown.Item>
-              <NavDropdown.Item href="/homeJP">Japanese</NavDropdown.Item>
+            <NavDropdown.Item href="/Project2final/home">English(US)</NavDropdown.Item>
+              <NavDropdown.Item href="/Project2final/homeJP">Japanese</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

@@ -9,7 +9,7 @@ const News2 = () => {
             <h1 className="news text-center" style={{ backgroundColor: 'rgba(0, 0, 0, 0.408)' }} >--- URGENT NOTICE ---</h1>
             <Row>
                 <Col className="text-end">
-                <Link to="/news">
+                <Link to="/Project2final/news">
                     <button className="btn-sort"><BiArrowBack></BiArrowBack></button>              
                 </Link>        
                 </Col>

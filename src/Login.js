@@ -52,7 +52,7 @@ const Login = () => {
                                 feedbackType="invalid"
                             />
                         </Form.Group>
-                        <Link to="/profile">
+                        <Link to="/Project2final/profile">
                         <Button type="submit" >Login</Button>
                         </Link>
                         <br></br>
@@ -60,7 +60,7 @@ const Login = () => {
                         <br></br>                    
                     </Form>
                     <Row>
-                        <p>Don't have an account? <a href="/signup">SignUp</a></p>
+                        <p>Don't have an account? <a href="/Project2final/signup">SignUp</a></p>
                     </Row>
                     <br></br>
                     <br></br>

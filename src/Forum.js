@@ -116,7 +116,7 @@ const Forum = () => {
                 <br></br>
                 <br></br>
                 <br></br>
-                <Link to="/forum/userpost">
+                <Link to="/Project2final/forum/userpost">
                 <button className="btn-download" ><span>Post your idea </span></button>
                 </Link>
                 
