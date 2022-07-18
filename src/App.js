@@ -25,7 +25,7 @@ function App() {
       <div className='App'>
         <Routes>
           <Route extact path="/home" element={<NavHeader />}></Route>
-          <Route extact path="/" element={<NavHeader />}></Route>
+          <Route extact path="/Project2final" element={<NavHeader />}></Route>
           <Route extact path="/concept" element={<NavHeader />}></Route>
           <Route extact path="/story" element={<NavHeader />}></Route>
           <Route extact path="/news" element={<NavHeader />}></Route>
@@ -46,7 +46,7 @@ function App() {
         </Routes>
         <div className='content'>
           <Routes>
-            <Route extact path="/" element={<Home />}></Route>
+            <Route extact path="/Project2final" element={<Home />}></Route>
             <Route extact path="/home" element={<Home />}></Route>
             <Route extact path="/homeJP" element={<HomeJP />}></Route>
             <Route extact path="/concept" element={<Concept />}></Route>
