@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Project2final/static/css/main.2ec63ea5.css",
+    "main.js": "/Project2final/static/js/main.af650457.js",
+    "static/media/videopreview.jpg": "/Project2final/static/media/videopreview.e7bb806cc3eb88025ee5.jpg",
+    "static/media/firekeeper.jpg": "/Project2final/static/media/firekeeper.2200b500b8215e9d6091.jpg",
+    "static/media/tunnel-title1.jpg": "/Project2final/static/media/tunnel-title1.f6cdda1f03c2d11ce1cc.jpg",
+    "static/media/church2.jpg": "/Project2final/static/media/church2.876fc6a59c49e1b3a7aa.jpg",
+    "static/media/forest.jpg": "/Project2final/static/media/forest.8e81b3c5bfe4af0a9466.jpg",
+    "static/media/bgcastle.jpg": "/Project2final/static/media/bgcastle.38879d2406eb07017398.jpg",
+    "static/media/ninja.jpg": "/Project2final/static/media/ninja.3408f2d89ccaf38eb585.jpg",
+    "static/media/dragon.jpg": "/Project2final/static/media/dragon.eb9e8e79b13332feb403.jpg",
+    "static/media/tunnel.jpg": "/Project2final/static/media/tunnel.0518bf2825d668f4defe.jpg",
+    "static/media/news.jpg": "/Project2final/static/media/news.75b8442622a9dea38d56.jpg",
+    "static/media/news2.jpg": "/Project2final/static/media/news2.0a586cdf2b0c7fc1a655.jpg",
+    "static/media/LOGO.jpg": "/Project2final/static/media/LOGO.0b378af96d006eca570f.jpg",
+    "static/media/Platform.jpg": "/Project2final/static/media/Platform.7a013f0759a63fdd0a27.jpg",
+    "index.html": "/Project2final/index.html",
+    "main.2ec63ea5.css.map": "/Project2final/static/css/main.2ec63ea5.css.map",
+    "main.af650457.js.map": "/Project2final/static/js/main.af650457.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ec63ea5.css",
+    "static/js/main.af650457.js"
+  ]
+}
