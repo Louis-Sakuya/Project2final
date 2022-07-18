@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Project2final/static/css/main.2ec63ea5.css",
-    "main.js": "/Project2final/static/js/main.7bd8b8dc.js",
+    "main.js": "/Project2final/static/js/main.3a0c519f.js",
     "static/media/videopreview.jpg": "/Project2final/static/media/videopreview.e7bb806cc3eb88025ee5.jpg",
     "static/media/firekeeper.jpg": "/Project2final/static/media/firekeeper.2200b500b8215e9d6091.jpg",
     "static/media/tunnel-title1.jpg": "/Project2final/static/media/tunnel-title1.f6cdda1f03c2d11ce1cc.jpg",
@@ -17,10 +17,10 @@
     "static/media/Platform.jpg": "/Project2final/static/media/Platform.7a013f0759a63fdd0a27.jpg",
     "index.html": "/Project2final/index.html",
     "main.2ec63ea5.css.map": "/Project2final/static/css/main.2ec63ea5.css.map",
-    "main.7bd8b8dc.js.map": "/Project2final/static/js/main.7bd8b8dc.js.map"
+    "main.3a0c519f.js.map": "/Project2final/static/js/main.3a0c519f.js.map"
   },
   "entrypoints": [
     "static/css/main.2ec63ea5.css",
-    "static/js/main.7bd8b8dc.js"
+    "static/js/main.3a0c519f.js"
   ]
 }
