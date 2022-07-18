@@ -23,7 +23,7 @@ function App() {
   return (
     <Router>
       <div className='App'>
-        <Routes basename={window.location.pathname || ''}>
+        <Routes>
           <Route extact path="/Project2final/home" element={<NavHeader />}></Route>
           <Route extact path="/" element={<NavHeader />}></Route>
           <Route extact path="/Project2final" element={<NavHeader />}></Route>
@@ -39,16 +39,16 @@ function App() {
           <Route extact path="/Project2final/login" element={<NavHeader />}></Route>
           <Route extact path="/Project2final/signup" element={<NavHeader />}></Route>
         </Routes>
-        <Routes basename={window.location.pathname || ''}>
+        <Routes>
           <Route extact path="/Project2final/homeJP" element={<NavHeaderJP />}></Route>
           <Route extact path="/Project2final/conceptJP" element={<NavHeaderJP />}></Route>
           <Route extact path="/Project2final/storyJP" element={<NavHeaderJP />}></Route>
 
         </Routes>
         <div className='content'>
-          <Routes basename={window.location.pathname || ''}>
+          <Routes>
             <Route extact path="/" element={<Home />}></Route>
-            <Route extact path="/Project2final" element={<NavHeader />}></Route>
+            <Route extact path="/Project2final" element={<Home />}></Route>
             <Route extact path="/Project2final/home" element={<Home />}></Route>
             <Route extact path="/Project2final/homeJP" element={<HomeJP />}></Route>
             <Route extact path="/Project2final/concept" element={<Concept />}></Route>
