@@ -1,13 +1,421 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+  font-size: 23px;
+  font-family: 'Lora', serif;
+  color: rgb(255, 255, 255);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.normaltext {
+  font-family: 'Lora', serif;
+  font-size: 23px;
+  color: white;
+
 }
+.normaltext2 {
+  font-family: 'Cinzel', serif;
+  font-size: 21px;
+  color: white;
+
+}
+.navtext {
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  color: white;
+
+}
+.navtext:hover {
+  color: rgba(233, 188, 92, 0.825);
+}
+
+.concepttitle{
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  color: white;
+
+}
+.concepttext{
+  font-family: 'Lora', serif;
+  font-size: 24px;
+  
+}
+
+.storytitle {
+  font-family: 'Lora', serif;
+  font-size: 23px;
+  color: rgb(169, 215, 150);
+}
+.storytext {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 21px;
+  color: white;
+}
+
+.news{
+  font-family: 'Cinzel', serif;
+  font-size: 42px;
+  color: white;
+
+}
+.newstitletext {
+  font-family: 'Lora', serif;
+  font-size: 30px;
+  color: rgb(202, 195, 54);
+
+}
+.forumtitle{
+  color: rgb(255, 255, 255);
+  font-size: 46px;
+  text-align: center;
+  width:fit-content;
+}
+.forumtitle-sm{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  text-align: center;
+  width:fit-content;
+}
+.forumtext{
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.633);
+   width:fit-content;
+}
+.profilecard{
+  background-color: rgba(0, 0, 0, 0.242);
+  color: #fff;
+}
+
+.nav-link1 {
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  color: white;
+  border-radius: 8px;
+  
+
+}
+
+.nav-link1:hover {
+  box-shadow: 0 4px 12px 0 rgb(153, 87, 33), 0 0px 4px 0 rgba(120, 27, 27, 0.859);
+  color: rgba(233, 188, 92, 0.825);
+}
+
+.nav-link2 {
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+
+}
+
+.nav-link2:hover {
+  box-shadow: 0 4px 12px 0 rgb(153, 87, 33), 0 0px 4px 0 rgba(120, 27, 27, 0.859);
+  color: rgba(0, 0, 0, 0.825);
+}
+
+.list-topic {
+  width: 480px;
+  height: 60px;
+  font-size: 20px;
+  text-align: left;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.479);
+}
+
+.list-views {
+  width: 100px;
+  height: 60px;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.479);
+}
+
+
+.list-date {
+  width: 150px;
+  height: 60px;
+  font-size: 15px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.479);
+}
+
+.btn-login {
+  font-family: 'Cinzel', serif;
+  font-size: 25px;
+  color: white;
+  background-color: rgb(83, 24, 22);
+}
+
+.btn-login:hover {
+  color: white;
+  background-color: rgb(165, 81, 42);
+
+}
+
+.btn-profile:hover {
+  box-shadow: 0 4px 12px 0 rgb(255, 255, 255), 0 0px 4px 0 rgba(255, 255, 255, 0.859);
+}
+
+.sortdropdown{
+  font-family: 'Cinzel', serif;
+  background-color: black
+}
+
+.btn-sort {
+  font-family: 'Cinzel', serif;
+  font-size: 25px;
+  color: white;
+  background-color:
+      rgb(32, 61, 109);
+}
+
+.btn-sort:hover {
+  color: white;
+  background-color: rgb(42, 138, 165);
+
+}
+
+
+.btn-download {
+  font-family: "Times New Roman", Times, serif;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #6c5e30;
+  border: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 22px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn-download:hover {
+  box-shadow: 0 6px 16px 0 rgb(133, 79, 34), 0 0px 4px 0 rgba(245, 243, 243, 0.859);
+}
+
+.btn-download span {
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-download span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn-download:hover span {
+  padding-right: 25px;
+}
+
+.btn-download:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.background-pic {
+  max-width: 2000px;
+  max-height: 1000px;
+  padding-top: 20%;
+  background-position: center 130;
+  background-repeat: no-repeat;
+  background-size:100%;
+}
+
+.background-pic1 {
+  max-width: 2133px;
+  padding-top: 10%;
+  background-position: center 130;
+  background-size: cover;
+}
+
+.background-pic2 {
+  max-width: 2133px;
+  max-height: 1000px;
+  padding-top: 10%;
+  background-position: center 80;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background-pic3 {
+  max-width: 2133px;
+  max-height: 1000px;
+  padding-top: 10%;
+  background-position: center 80;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.hovereffect {
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 510px;
+  height: 300px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.hovereffect:hover img {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /><feGaussianBlur stdDeviation="3" /></filter></svg>#filter');
+  filter: grayscale(1) blur(3px);
+  -webkit-filter: grayscale(1) blur(3px);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect a.info,
+.hovereffect h2 {
+  -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  color: rgba(255, 255, 255, 0.899);
+  text-transform: uppercase;
+}
+
+.hovereffect:hover a.info,
+.hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect1 {
+  width: 300px;
+  height: 300px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  border-style: solid;
+  border-color: rgb(132, 102, 45);
+}
+
+.hovereffect1 .overlay {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+
+  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+  transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+}
+
+.hovereffect1:hover .overlay {
+  background-color: rgba(48, 152, 157, 0.4);
+}
+
+.hovereffect1 img {
+  display: block;
+  position: relative;
+}
+
+.hovereffect1 h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transform: translateY(45px);
+  -ms-transform: translateY(45px);
+  transform: translateY(45px);
+  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+  transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+}
+
+.hovereffect1:hover h2 {
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
+}
+
+.hovereffect1 button.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+  transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+  font-weight: normal;
+  margin: -52px 0 0 0;
+  padding: 62px 70px;
+}
+
+.hovereffect1:hover button.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect1 button.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
